@@ -1,0 +1,55 @@
+.contact {
+  padding: 100px 150px 30px 150px;
+  background-image: url(./img/banner.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.contact h2 {
+  font-size: 36px;
+  font-weight: 400;
+  color: #fff;
+  position: relative;
+  z-index: 0;
+  padding-bottom: 0px;
+}
+
+.contact p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #fff;
+}
+
+.btn-contact:hover {
+  background: #ccad85;
+  border: 1px solid #ccad85;
+  color: #fff;
+}
+
+.btn-contact {
+  font-size: 24px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #7a5444;
+  padding: 25px 30px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.btn-contact > div {
+  color: #fff;
+}
+
+.bottom-footer {
+  color: #919191;
+  text-align: center;
+}
+
+.bottom-footer a {
+  text-decoration: none;
+  color: #db9a64;
+}

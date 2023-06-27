@@ -1,0 +1,92 @@
+.hi-there {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  background-image: url(./img/banner.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/* 32vw auto 16vw */
+.hi-there-message {
+  padding-left: 150px;
+  color: #fff;
+  line-height: 90px;
+  font-size: 80px;
+  margin: auto 0;
+  width: 100vw;
+}
+
+.hi-there-message h3 {
+  font-weight: 300;
+}
+
+.cover {
+  display: flex;
+  width: 500px;
+  height: 100vh;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgOne {
+  z-index: 11;
+  width: 500px;
+  position: absolute;
+  -webkit-animation: spin 60s linear infinite;
+  -moz-animation: spin 60s linear infinite;
+  animation: spin 60s linear infinite;
+}
+
+.imgTwo {
+  z-index: 10;
+  width: 500px;
+  position: absolute;
+  -webkit-animation: spin1 100s linear infinite;
+  -moz-animation: spin1 100s linear infinite;
+  animation: spin1 100s linear infinite;
+}
+
+.imgAdem {
+  z-index: 111;
+  position: absolute;
+  width: 10vw;
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes spin1 {
+  100% {
+    -moz-transform: rotate(-360deg);
+  }
+}
+@-webkit-keyframes spin1 {
+  100% {
+    -webkit-transform: rotate(-360deg);
+  }
+}
+@keyframes spin1 {
+  100% {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+  }
+}
