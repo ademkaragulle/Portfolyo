@@ -39,7 +39,7 @@ function Certificates() {
                             <div>Material UI</div>
                             <div>Redux</div>
                         </div>
-                        <button className='btn-certificate'>view</button>
+                        <a target='_blank' href="https://github.com/ademkaragulle/JS-Exercise/blob/main/adem-karag%C3%BClle-sertificate.pdf" className='btn-certificate'>view</a>
                     </div>
                 </div>
             </div>
