@@ -5,7 +5,7 @@ import Udemy from './img/Udemy.png'
 
 function Certificates() {
     return (
-        <div className='section-certificates'>
+        <div id='certificates' className='section-certificates'>
             <h2> My Certificates</h2>
             <div className='certificates'>
                 <div className='col-md-4'>

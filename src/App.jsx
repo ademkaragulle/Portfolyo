@@ -6,6 +6,7 @@ import Contact from './components/contact/Contact'
 import HiThere from './components/hi-there/HiThere'
 import Projects from './components/projects/Projects'
 
+
 function App() {
 
   return (

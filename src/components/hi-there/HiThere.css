@@ -7,17 +7,18 @@
   background-repeat: no-repeat;
   background-position: center center;
 }
-/* 32vw auto 16vw */
+
 .hi-there-message {
   padding-left: 150px;
   color: #fff;
-  line-height: 90px;
+  line-height: 60px;
   font-size: 80px;
   margin: auto 0;
   width: 100vw;
 }
 
 .hi-there-message h3 {
+  margin-bottom: 0;
   font-weight: 300;
 }
 
@@ -31,21 +32,23 @@
 }
 
 .imgOne {
+  opacity: .3;
   z-index: 11;
-  width: 500px;
+  width: 800px;
   position: absolute;
-  -webkit-animation: spin 60s linear infinite;
-  -moz-animation: spin 60s linear infinite;
-  animation: spin 60s linear infinite;
+  -webkit-animation: spin 300s linear infinite;
+  -moz-animation: spin 300s linear infinite;
+  animation: spin 300s linear infinite;
 }
 
 .imgTwo {
+  opacity: .3;
   z-index: 10;
-  width: 500px;
+  width: 800px;
   position: absolute;
-  -webkit-animation: spin1 100s linear infinite;
-  -moz-animation: spin1 100s linear infinite;
-  animation: spin1 100s linear infinite;
+  -webkit-animation: spin1 200s linear infinite;
+  -moz-animation: spin1 200s linear infinite;
+  animation: spin1 200s linear infinite;
 }
 
 .imgAdem {

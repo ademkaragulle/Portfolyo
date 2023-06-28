@@ -10,6 +10,10 @@ body {
   );
 }
 
+a {
+  text-decoration: none;
+}
+
 .btn {
   text-align: center;
   color: #db9a64;
@@ -52,4 +56,8 @@ body {
 
 .pr-5 {
   padding-right: 40px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
