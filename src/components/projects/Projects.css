@@ -1,6 +1,7 @@
 .projects {
   background-color: #3b2930;
   padding: 100px 150px;
+  /* height: 80vh; */
 }
 
 .projects h2 {
@@ -13,21 +14,82 @@
 }
 
 .main-projects {
+  overflow: hidden;
+  display: -webkit-box;
+}
+
+.languages {
   display: flex;
   justify-content: space-between;
+  position: relative;
+  align-items: center;
+}
+
+/* Create the animation... */
+@keyframes slide-open {
+  from {
+    left: 0%;
+  }
+  to {
+    left: -100%;
+  }
+}
+
+/* ...and then apply it: */
+.toggle-open {
+  animation: slide-open 1000ms;
+  left: -100%;
+}
+
+@keyframes slide-close {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 0%;
+  }
+}
+
+/* ...and then apply it: */
+.toggle-close {
+  animation: slide-close 1000ms;
+  left: 0;
+}
+
+.project-column {
+  margin: 0 30px;
+  width: 30%;
+}
+
+.project-left-side {
+  height: 100%;
+  border: 0px;
+  background-color: transparent;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.project-left-side:hover {
+  background-color: rgba(250, 235, 215, 0.196);
 }
 
 .single-project {
+  background-color: transparent;
   color: #988f92;
   text-align: center;
   border: 1px solid #6b4b40;
   padding: 45px 30px;
   cursor: pointer;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .single-project h3 {
-  transition: .3s;
+  transition: 0.3s;
   font-size: 24px;
   color: #db9a64;
   margin-top: 22px;
@@ -48,4 +110,22 @@
   font-size: 16px;
   line-height: 28px;
   margin-bottom: 0;
+}
+
+.visit-project {
+  background-color: transparent;
+  color: #988f92;
+  text-align: center;
+  border: 1px solid #6b4b40;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.visit-project-info {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
