@@ -35,7 +35,7 @@ function Projects() {
 
     return (
         <div id='projects' className='projects'>
-            <h2>My Works</h2>
+            <h2>My Projects</h2>
             <div className=' main-projects'>
                 <div className={goLanguages ? "languages toggle-open" : "languages toggle-close"}>
                     <div className='col-md-4'>
