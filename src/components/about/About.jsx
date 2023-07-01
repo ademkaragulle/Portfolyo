@@ -37,7 +37,7 @@ function About() {
             </div>
             <div className='about-contents'>
                 <div className='about-me'>
-                    <p>I am Adem Karagülle, graduate of Yıldız Technical University, Department of Civil Engineering. Thanks to the courses I took and the projects I studied during my university education, I became interested in the software field and I developed myself in this field. I know technologies such as HTML, CSS, JavaScript, TypeScript, React and Photoshop.I am talented in creating and designing websites using these tools.</p>
+                    <p>I am Adem Karagülle, graduate of Yıldız Technical University, Department of Civil Engineering. Thanks to the courses I took and the projects I studied during my university education, I became interested in the software field and I developed myself in this field. I know technologies such as HTML, CSS, JavaScript, TypeScript, React and Photoshop. I am talented in creating and designing websites using these tools.</p>
                     <p>I have been in the sector for about {(year - 2022) * 12 + mounth - 3} months and I have attended a lot courses during this time. I developed new projects with what I learned from the courses.In the future, I want to work in a company that develops software products for the construction industry. In this way, I want to use my civil engineering skills while doing the job I love.</p>
                 </div>
                 <div className="progress-skills">

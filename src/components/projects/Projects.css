@@ -113,6 +113,7 @@
 }
 
 .visit-project {
+  min-height: 426px;
   background-color: transparent;
   color: #988f92;
   text-align: center;
@@ -127,5 +128,23 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 20px;
+}
+
+.single-project-h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.visit-project-info p {
+  height: 80px;
+}
+
+.container-button-group a {
+  padding: 15px 20px !important;
+}
+
+.container-button-group {
+  display: flex;
   gap: 20px;
 }
