@@ -11,14 +11,10 @@ import JavaScript from './languages/JavaScript';
 function Projects() {
     const [goLanguages, setgoLanguages] = useState(false)
     const [language, setLanguage] = useState(<HtmlCss />)
-    // const handleBackLanguages = () => {
-
-    // }
 
     const handleLanguage = async (incomLanguage) => {
         setgoLanguages(true)
         location.href = await '#projects'
-        // location.href = '#projects'
         if (incomLanguage === 'REACT') {
             setLanguage(<ReactJs />)
         } else if (incomLanguage === 'HTMLCSS') {
@@ -28,9 +24,11 @@ function Projects() {
         }
     }
 
-    const closeProjects = () => {
+    const closeProjects = async () => {
         setgoLanguages(false)
-        setLanguage(<HtmlCss />)
+            (setTimeout(() => {
+                setLanguage(<HtmlCss />)
+            }, 500))()
     }
 
     return (

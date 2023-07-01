@@ -3,7 +3,7 @@
   overflow: hidden;
   display: flex;
   background-image: url(./img/banner.png);
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
