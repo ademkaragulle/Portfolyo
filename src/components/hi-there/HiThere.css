@@ -56,6 +56,12 @@
   animation: spin1 200s linear infinite;
 }
 
+.hi-there-button-group {
+  margin-top: 48px;
+  display: inline-block;
+  gap: 20px;
+}
+
 .imgAdem {
   z-index: 111;
   position: absolute;
@@ -102,7 +108,7 @@
 /* Responsive  */
 @media screen and (max-width: 768px) {
   .hi-there-message {
-    height: 84vh;
+    height: 86vh;
     padding: 14vh 20px 0 20px;
   }
 
@@ -118,11 +124,6 @@
     display: none;
   }
 
-  .hi-there-button-group {
-    margin-top: 20px;
-    display: inline-block;
-    gap: 20px;
-  }
 
   .hi-there-button-group a,
   .hi-there-button-group button {
