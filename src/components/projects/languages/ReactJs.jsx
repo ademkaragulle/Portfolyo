@@ -5,7 +5,7 @@ import React3 from './img/MealOrder.png'
 import '../Projects.css'
 function ReactJs() {
     return (
-        <>
+        <div className='plural-projects'>
             <div className='project-column'>
                 <div className='visit-project'>
                     <img className='img-fluid' src={React1} alt="" />
@@ -43,7 +43,7 @@ function ReactJs() {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 

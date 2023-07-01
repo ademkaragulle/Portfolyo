@@ -25,6 +25,20 @@
   align-items: center;
 }
 
+.plural-projects {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+}
+
+.languages-projects {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+}
+
 /* Create the animation... */
 @keyframes slide-open {
   from {
@@ -147,4 +161,47 @@
 .container-button-group {
   display: flex;
   gap: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .projects {
+    padding: 20px;
+  }
+  .languages {
+    flex-direction: column;
+    justify-content: initial;
+  }
+  .languages .col-md-4 {
+    width: 100%;
+  }
+
+  .languages-projects {
+    flex-direction: column;
+    justify-content: initial;
+    padding-top: 20px;
+  }
+
+  .plural-projects {
+    justify-content: initial;
+    flex-direction: column;
+  }
+  .project-column {
+    width: 100%;
+  }
+  .visit-project-info p {
+    height: initial;
+  }
+  .visit-project {
+    min-height: initial;
+    margin: 20px 0;
+  }
+  .project-left-side {
+    height: initial;
+    background-color: #db9a64;
+    width: 100%;
+    color: #3b2930;
+  }
+  .project-left-side h4 {
+    margin-left: 10px;
+  }
 }

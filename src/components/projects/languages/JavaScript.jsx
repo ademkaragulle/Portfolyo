@@ -6,7 +6,7 @@ import ArıBilgi from './img/ArıBilgi-website.png'
 
 function JavaScript() {
     return (
-        <>
+        <div className='plural-projects'>
             <div className='project-column'>
                 <div className='visit-project'>
                     <img className='img-fluid' src={JavaScript1} alt="" />
@@ -43,7 +43,7 @@ function JavaScript() {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 

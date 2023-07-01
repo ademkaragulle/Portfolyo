@@ -16,20 +16,16 @@ function Header() {
 
     return (
         <div className={currentScroll ? "header toggle-header" : "header"}>
-            <div className="container-header">
-                <a className='header-left-side' href="#hi-there">
-                    <img style={{ height: '70%', padding: 'auto' }} src={akLogo} alt="" />
-                </a>
-                <div className="header-right-side">
-
-                    <a href="#about">About</a>
-                    <a href="#projects">Projects</a>
-                    <a href="#certificates">Certificates</a>
-                    <a href="#contact">Contact</a>
-
-                </div>
+            <a className='header-left-side' href="#hi-there">
+                <img style={{ height: '70%', padding: 'auto' }} src={akLogo} alt="" />
+            </a>
+            <div className="header-right-side">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#certificates">Certificates</a>
+                <a href="#contact">Contact</a>
             </div>
-        </div >
+        </div>
     )
 }
 

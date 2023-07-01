@@ -15,8 +15,10 @@ function Projects() {
 
     // }
 
-    const handleLanguage = (incomLanguage) => {
+    const handleLanguage = async (incomLanguage) => {
         setgoLanguages(true)
+        location.href = await '#projects'
+        // location.href = '#projects'
         if (incomLanguage === 'REACT') {
             setLanguage(<ReactJs />)
         } else if (incomLanguage === 'HTMLCSS') {
@@ -24,6 +26,11 @@ function Projects() {
         } else if (incomLanguage === 'JAVASCRIPT') {
             setLanguage(<JavaScript />)
         }
+    }
+
+    const closeProjects = () => {
+        setgoLanguages(false)
+        setLanguage(<HtmlCss />)
     }
 
     return (
@@ -56,11 +63,14 @@ function Projects() {
                 </div>
 
 
-                <div className={goLanguages ? "languages toggle-open" : "languages toggle-close"}>
-                    <button onClick={() => setgoLanguages(false)} className='project-left-side'>
+                <div className={goLanguages ? "languages-projects toggle-open" : "languages-projects toggle-close"}>
+                    <button onClick={closeProjects} className='project-left-side'>
                         <FiArrowLeft size={50} />
+                        <h4>BACK</h4>
                     </button>
-                    {language}
+                    <div>
+                        {language}
+                    </div>
                 </div>
             </div>
         </div >

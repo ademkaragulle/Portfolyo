@@ -9,9 +9,9 @@ function HiThere() {
             <div className='hi-there-message'>
                 <h3>
                     <span style={{ padding: '0px' }}>Hi There, I Am Adem </span><br />
-                    <span style={{ color: '#DB9A64', fontSize: '48px' }}>FrontEnd Developer</span>
+                    <span className='job-title'>FrontEnd Developer</span>
                 </h3>
-                <div>
+                <div className='hi-there-button-group'>
                     <button className='btn' style={{ margin: "30px 10px 0 0" }}>Download CV</button>
                     <a target='_blank' className='btn' href="https://watchmoviee.netlify.app">View My Best Project</a>
                 </div>

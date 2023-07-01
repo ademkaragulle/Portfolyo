@@ -12,24 +12,24 @@ const date = new Date().getFullYear()
 function Contact() {
     return (
         <footer id='contact' className='contact'>
-            <div style={{ marginBottom: '100px' }}>
+            <div className='contact-info'>
                 <h2>Contact</h2>
                 <p>You can download the CV by clicking the link below. You can review my github and linkedin profiles and send an e-mail for communication. Thank you for visiting my website. &#10084;</p>
             </div>
-            <div className="container" style={{ marginBottom: '100px' }}>
-                <div className="col-md-3 pr-5">
+            <div className="container contact-info">
+                <div className="col-md-3">
                     <button className='btn btn-contact'>
                         <div>Download CV</div>
                         <LiaDownloadSolid />
                     </button>
                 </div>
-                <div className="col-md-3 pr-5">
+                <div className="col-md-3">
                     <a className="btn btn-contact" href="mailto:ademkaragulle@outlook.com">
                         <div>E-Mail</div>
                         <GrMail />
                     </a>
                 </div>
-                <div className="col-md-3 pr-5">
+                <div className="col-md-3">
                     <a className="btn btn-contact" href="https://github.com/ademkaragulle" target='_blank'>
                         <div>Github</div>
                         <AiFillGithub />

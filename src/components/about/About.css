@@ -68,3 +68,43 @@
   display: flex;
   flex-direction: column;
 }
+
+@media screen and (max-width: 768px) {
+  .about {
+    text-align: justify;
+    padding: 10px 20px;
+  }
+  .about-title {
+    width: initial;
+  }
+  .about-title h3 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    line-height: 36px;
+  }
+  .about-contents {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-me {
+    margin-bottom: 20px !important;
+    width: initial !important;
+  }
+  .progress-skills h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  .progress-skills {
+    width: initial !important;
+    padding: 0;
+  }
+  .single-progress {
+    padding: 0;
+  }
+  .about .btn{
+    margin: 30px 0;
+    width: 100%;
+    padding: 20px 0;
+  }
+}

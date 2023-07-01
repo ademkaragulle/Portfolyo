@@ -22,6 +22,11 @@
   font-weight: 300;
 }
 
+.job-title {
+  color: #db9a64;
+  font-size: 48px;
+}
+
 .cover {
   display: flex;
   width: 500px;
@@ -32,7 +37,7 @@
 }
 
 .imgOne {
-  opacity: .3;
+  opacity: 0.3;
   z-index: 11;
   width: 800px;
   position: absolute;
@@ -42,7 +47,7 @@
 }
 
 .imgTwo {
-  opacity: .3;
+  opacity: 0.3;
   z-index: 10;
   width: 800px;
   position: absolute;
@@ -91,5 +96,41 @@
   100% {
     -webkit-transform: rotate(-360deg);
     transform: rotate(-360deg);
+  }
+}
+
+/* Responsive  */
+@media screen and (max-width: 768px) {
+  .hi-there-message {
+    height: 84vh;
+    padding: 14vh 20px 0 20px;
+  }
+
+  .hi-there-message h3 {
+    font-size: 3rem;
+  }
+
+  .job-title {
+    font-size: 2rem;
+  }
+
+  .cover {
+    display: none;
+  }
+
+  .hi-there-button-group {
+    margin-top: 20px;
+    display: inline-block;
+    gap: 20px;
+  }
+
+  .hi-there-button-group a,
+  .hi-there-button-group button {
+    font-size: 16px;
+    margin: 20px 0;
+    line-height: 0;
+    display: inline-block;
+    padding: 30px;
+    /* width: 60vw; */
   }
 }

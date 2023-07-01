@@ -61,3 +61,17 @@
 .btn-certificate:hover {
   background-color: #ad815b;
 }
+
+@media screen and (max-width: 768px) {
+  .section-certificates {
+    padding: 20px;
+  }
+  .certificates {
+    flex-direction: column;
+  }
+  .certificates .col-md-4{
+    width: 100%;
+    padding: 0;
+    margin: 10px 0;
+  }
+}

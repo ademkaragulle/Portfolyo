@@ -4,7 +4,7 @@ import ArıBilgi from './img/ArıBilgi-website.png'
 
 function HtmlCss() {
     return (
-        <>
+        <div className='plural-projects' style={{ justifyContent: 'initial' }}>
             <div className='project-column'>
                 <div className='visit-project'>
                     <img className='img-fluid' src={constructor} alt="" />
@@ -29,7 +29,7 @@ function HtmlCss() {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 

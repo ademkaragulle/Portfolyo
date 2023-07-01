@@ -15,6 +15,20 @@
   padding-bottom: 0px;
 }
 
+.contact-info {
+  margin-bottom: 100px;
+  gap: 20px;
+}
+
+.contact-info .col-md-3 {
+  width: 32%;
+}
+
+.contact-info .col-md-3 button,
+.contact-info .col-md-3 a {
+  width: 100%;
+}
+
 .contact p {
   font-size: 16px;
   line-height: 28px;
@@ -29,7 +43,6 @@
 
 .btn-contact {
   font-size: 24px;
-  width: 100%;
   display: flex;
   justify-content: space-between;
   border: 1px solid #7a5444;
@@ -52,4 +65,25 @@
 .bottom-footer a {
   text-decoration: none;
   color: #db9a64;
+}
+
+@media screen and (max-width: 768px) {
+  .contact {
+    padding: 20px;
+    text-align: justify;
+  }
+  .contact .container {
+    gap: 20px;
+    flex-direction: column;
+  }
+  .contact .container .col-md-3 {
+    padding: initial;
+    width: 70%;
+  }
+  .contact-info {
+    margin-bottom: 40px;
+  }
+  .btn-contact {
+    font-size: 16px;
+  }
 }
