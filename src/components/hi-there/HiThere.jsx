@@ -1,6 +1,6 @@
 import React from 'react'
-import İmageOne from '../../assets/imgOne-3000x3000.png'
-import İmageTwo from '../../assets/imgTwo-3000x3000.png'
+import İmageOne from '../../assets/imgOne-3000x3000.webp'
+import İmageTwo from '../../assets/imgTwo-3000x3000.webp'
 import Resume from '../../assets/Adem_Karagülle_Resume.pdf'
 
 import './HiThere.css'
