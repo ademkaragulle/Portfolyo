@@ -1,6 +1,8 @@
 import React from 'react'
 import İmageOne from '../../assets/imgOne-3000x3000.png'
 import İmageTwo from '../../assets/imgTwo-3000x3000.png'
+import Resume from '../Adem_Karagülle_Resume.pdf'
+
 import './HiThere.css'
 
 function HiThere() {
@@ -13,7 +15,7 @@ function HiThere() {
                         <span className='job-title'>FrontEnd Developer</span>
                     </h3>
                     <div className='hi-there-button-group'>
-                        <button className='btn' style={{ margin: "30px 10px 0 0" }}>Download CV</button>
+                        <a download href={Resume} className='btn' style={{ margin: "30px 10px 0 0" }}>Download CV</a>
                         <a target='_blank' className='btn' href="https://watchmoviee.netlify.app">View My Best Project</a>
                     </div>
                 </div>

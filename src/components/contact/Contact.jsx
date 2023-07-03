@@ -4,6 +4,7 @@ import { GrMail } from 'react-icons/gr'
 import { BiLogoLinkedin } from 'react-icons/bi'
 import { AiFillGithub } from 'react-icons/ai'
 import { LiaDownloadSolid } from 'react-icons/lia'
+import Resume from '../Adem_Karagülle_Resume.pdf'
 
 
 const date = new Date().getFullYear()
@@ -18,10 +19,10 @@ function Contact() {
             </div>
             <div className="container contact-info">
                 <div className="col-md-3">
-                    <button className='btn btn-contact'>
+                    <a download href={Resume} className='btn btn-contact'>
                         <div>Download CV</div>
                         <LiaDownloadSolid />
-                    </button>
+                    </a>
                 </div>
                 <div className="col-md-3">
                     <a className="btn btn-contact" href="mailto:ademkaragulle@outlook.com">
