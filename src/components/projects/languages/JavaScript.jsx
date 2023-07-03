@@ -1,8 +1,8 @@
 import React from 'react'
-import JavaScript1 from './img/JavaScript-img1.png'
-import JavaScript2 from './img/JavaScript-img2.png'
-import JavaScript3 from './img/JavaScript-img3.png'
-import ArıBilgi from './img/ArıBilgi-website.png'
+import JavaScript1 from './img/JavaScript-img1.webp'
+import JavaScript2 from './img/JavaScript-img2.webp'
+import JavaScript3 from './img/JavaScript-img3.webp'
+
 
 function JavaScript() {
     return (

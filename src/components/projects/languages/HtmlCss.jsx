@@ -1,6 +1,6 @@
 import React from 'react'
-import constructor from './img/constructor-website.png'
-import ArıBilgi from './img/ArıBilgi-website.png'
+import constructor from './img/constructor-website.webp'
+import ArıBilgi from './img/ArıBilgi-website.webp'
 
 function HtmlCss() {
     return (

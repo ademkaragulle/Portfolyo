@@ -1,7 +1,7 @@
 import React from 'react'
-import React1 from './img/WatchMovie.png'
-import React2 from './img/BurgerProject.png'
-import React3 from './img/MealOrder.png'
+import React1 from './img/WatchMovie.webp'
+import React2 from './img/BurgerProject.webp'
+import React3 from './img/MealOrder.webp'
 import '../Projects.css'
 function ReactJs() {
     return (
