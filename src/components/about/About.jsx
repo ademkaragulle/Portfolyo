@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import Progress from './Progress'
-import Resume from '../Adem_Karagülle_Resume.pdf'
+import Resume from '../../assets/Adem_Karagülle_Resume.pdf'
 
 const skills = [
     {

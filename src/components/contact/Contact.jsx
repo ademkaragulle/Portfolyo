@@ -4,7 +4,7 @@ import { GrMail } from 'react-icons/gr'
 import { BiLogoLinkedin } from 'react-icons/bi'
 import { AiFillGithub } from 'react-icons/ai'
 import { LiaDownloadSolid } from 'react-icons/lia'
-import Resume from '../Adem_Karagülle_Resume.pdf'
+import Resume from '../../assets/Adem_Karagülle_Resume.pdf'
 
 
 const date = new Date().getFullYear()
