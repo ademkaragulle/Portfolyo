@@ -92,6 +92,10 @@
   background-color: rgba(250, 235, 215, 0.196);
 }
 
+.back-reponsive {
+  display: none;
+}
+
 .single-project {
   background-color: transparent;
   color: #988f92;
@@ -203,5 +207,9 @@
   }
   .project-left-side h4 {
     margin-left: 10px;
+  }
+
+  .back-reponsive {
+    display: initial;
   }
 }

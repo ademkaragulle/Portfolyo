@@ -64,7 +64,7 @@ function Projects() {
                 <div className={goLanguages ? "languages-projects toggle-open" : "languages-projects toggle-close"}>
                     <button onClick={closeProjects} className='project-left-side'>
                         <FiArrowLeft size={50} />
-                        <h4>BACK</h4>
+                        <h4 className='back-reponsive'>BACK</h4>
                     </button>
                     <div>
                         {language}
