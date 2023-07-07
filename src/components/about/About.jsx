@@ -6,7 +6,7 @@ import Resume from '../../assets/Adem_Karagülle_Resume.pdf'
 const skills = [
     {
         skill: "HTML",
-        percent: "100%",
+        percent: "95%",
     },
     {
         skill: "CSS",
@@ -42,12 +42,13 @@ function About() {
                     <p>I have been in the sector for about {(year - 2022) * 12 + mounth - 3} months and I have attended a lot courses during this time. I developed new projects with what I learned from the courses.In the future, I want to work in a company that develops software products for the construction industry. In this way, I want to use my civil engineering skills while doing the job I love.</p>
                 </div>
                 <div className="progress-skills">
-                    {
-                        skills.map((item, index) => <Progress item={item} key={index} />)
-                    }
-                </div>
+                {
+                    skills.map((item, index) => <Progress item={item} key={index} />)
+                }
             </div>
-            <div>
+            </div>
+            
+            <div className='about-cv' >
                 <a download href={Resume} className='btn'>Download CV</a>
             </div>
         </div>

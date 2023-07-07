@@ -69,6 +69,11 @@
   flex-direction: column;
 }
 
+.about-cv {
+  display: inline-block;
+
+}
+
 @media screen and (max-width: 768px) {
   .about {
     text-align: justify;
@@ -86,6 +91,10 @@
     display: flex;
     flex-direction: column;
   }
+  .about-cv{
+    display: flex;
+  }
+
   .about-me {
     margin-bottom: 20px !important;
     width: initial !important;
@@ -102,7 +111,7 @@
   .single-progress {
     padding: 0;
   }
-  .about .btn{
+  .about .btn {
     margin: 30px 0;
     width: 100%;
     padding: 20px 0;
