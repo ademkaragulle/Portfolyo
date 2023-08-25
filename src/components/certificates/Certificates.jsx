@@ -17,7 +17,7 @@ function Certificates() {
                         <div>Boostrapt</div>
                         <div>Photoshop</div>
                         <div>Wordpress</div>
-                        <button className='btn-certificate'>view</button>
+                        <a target='_blank' href="https://github.com/ademkaragulle/documents/blob/main/adem-karag%C3%BClle-certificate.jpg" className='btn-certificate'>view</a>
                     </div>
                 </div>
                 <div className='col-md-4'>
@@ -39,7 +39,7 @@ function Certificates() {
                             <div>Material UI</div>
                             <div>Redux</div>
                         </div>
-                        <a target='_blank' href="https://github.com/ademkaragulle/JS-Exercise/blob/main/adem-karag%C3%BClle-sertificate.pdf" className='btn-certificate'>view</a>
+                        <a target='_blank' href="https://github.com/ademkaragulle/documents/blob/main/adem-karag%C3%BClle-certificate.pdf" className='btn-certificate'>view</a>
                     </div>
                 </div>
             </div>
